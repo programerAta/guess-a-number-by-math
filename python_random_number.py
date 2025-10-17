@@ -2,7 +2,7 @@ import random
 import time
 tanzimat=input("heart or normal\n")
 if tanzimat=="normal":
-    Number_vasat=list( map(int,input("select two number").split()))
+    Number_vasat=list(map(int,input("select two number").split()))
     Number_random=random.randint(min(Number_vasat),max (Number_vasat))
     while True:
         Number=int(input("Enter Number: \n"))
